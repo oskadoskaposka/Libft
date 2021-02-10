@@ -29,7 +29,7 @@ My personal library of C functions used in projects os 42 São Paulo
 | isascii | ❌ | ❌ |
 | isprint | ❌ | ❌ |
 | toupper | ❌ | ❌ |
-| tolower | ❌ | ❌ |
+| tolower | ✔️ | ❌ |
 
 # Part 1/2 - Malloc use
 | Função | codado | corrigido |
