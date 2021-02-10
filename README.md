@@ -19,6 +19,8 @@ My personal library of C functions used in projects of 42 São Paulo.
 | --- | --- | --- | --- |
 | Makefile | ❌ | ❌ | ❌ |
 
+[Back to top](#indice)
+
 <a id='part1'></a>
 ## Part 1 - Libc functions
 
