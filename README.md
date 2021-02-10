@@ -4,7 +4,7 @@ My personal library of C functions used in projects os 42 São Paulo
 <!-- Feito ✔️ -->
 <!-- Não Feito ❌ -->
 
-# Part 1 - Libc functions
+## Part 1 - Libc functions
 
 | Função | codado | corrigido |
 | --- | --- | --- |
@@ -31,13 +31,13 @@ My personal library of C functions used in projects os 42 São Paulo
 | toupper | ❌ | ❌ |
 | tolower | ✔️ | ❌ |
 
-# Part 1/2 - Malloc use
+## Part 1/2 - Malloc use
 | Função | codado | corrigido |
 | --- | --- | --- |
 | calloc | ❌ | ❌ |
 | strdup5 | ❌ | ❌ |
 
-# Part 2 - Additional functions
+## Part 2 - Additional functions
 | Função | codado | corrigido |
 | --- | --- | --- |
 | ft_substr | ❌ | ❌ |
@@ -51,7 +51,7 @@ My personal library of C functions used in projects os 42 São Paulo
 | ft_putendl_fd | ❌ | ❌ |
 | ft_putnbr_fd | ❌ | ❌ |
 
-# Part 3 - Bonus
+## Part 3 - Bonus
 | Função | codado | corrigido |
 | --- | --- | --- |
 | ft_lstnew | ❌ | ❌ | 
