@@ -15,14 +15,14 @@ My personal library of C functions used in projects of 42 São Paulo.
 <a id='part0'></a>
 ## Part 0 - Makefile
 
-| Função | codado | corrigido |
+| Function | code | correct |
 | --- | --- | --- |
 | Makefile | ❌ | ❌ |
 
 <a id='part1'></a>
 ## Part 1 - Libc functions
 
-| Função | codado | corrigido |
+| Function | code | correct |
 | --- | --- | --- |
 | memset | ❌ | ❌ |
 | bzero	| ❌ | ❌ |
@@ -47,22 +47,22 @@ My personal library of C functions used in projects of 42 São Paulo.
 | toupper | ❌ | ❌ |
 | tolower | ✔️ | ❌ |
 
-[Voltar ao topo](#indice)
+[Back to top](#indice)
 
 <a id='part2'></a>
 ## Part 2 - Malloc use
 
-| Função | codado | corrigido |
+| Function | code | correct |
 | --- | --- | --- |
 | calloc | ❌ | ❌ |
 | strdup | ❌ | ❌ |
 
-[Voltar ao topo](#indice)
+[Back to top](#indice)
 
 <a id='part3'></a>
 ## Part 3 - Additional functions
 
-| Função | codado | corrigido |
+| Function | code | correct |
 | --- | --- | --- |
 | ft_substr | ❌ | ❌ |
 | ft_strjoin | ❌ | ❌ |
@@ -75,11 +75,11 @@ My personal library of C functions used in projects of 42 São Paulo.
 | ft_putendl_fd | ❌ | ❌ |
 | ft_putnbr_fd | ❌ | ❌ |
 
-[Voltar ao topo](#indice)
+[Back to top](#indice)
 
 <a id='part4'></a>
 ## Part 4 - Bonus
-| Função | codado | corrigido |
+| Function | code | correct |
 | --- | --- | --- |
 | ft_lstnew | ❌ | ❌ | 
 | ft_lstadd_front | ❌ | ❌ |
@@ -91,9 +91,9 @@ My personal library of C functions used in projects of 42 São Paulo.
 | ft_lstiter | ❌ | ❌ |
 | ft_lstmap	 | ❌ | ❌ |
 
-[Voltar ao topo](#indice)
+[Back to top](#indice)
 
 ----------------
 
-### See you later!!
+### Remember, Copying is cheating!!
 <img align="right" src="https://komarev.com/ghpvc/?username=oskadoskaposka&color=lightgrey&style=flat&label=visitors" alt="Visitors badge" />
