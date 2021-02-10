@@ -11,6 +11,13 @@ My personal library of C functions used in projects os 42 São Paulo
 <!-- Feito ✔️ -->
 <!-- Não Feito ❌ -->
 
+<a id='part0'></a>
+## Part 0 - Makefile
+
+| Função | codado | corrigido |
+| --- | --- | --- |
+| Makefile | ❌ | ❌ |
+
 <a id='part1'></a>
 ## Part 1 - Libc functions
 
