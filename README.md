@@ -1,9 +1,17 @@
 # Libft
 My personal library of C functions used in projects os 42 São Paulo
 
+<a id='indice'></a>
+## Índice
+- [Libc functions](#part1)
+- [Malloc use](#part2)
+- [Additional functions](#part3)
+- [Bonus](#part4)
+
 <!-- Feito ✔️ -->
 <!-- Não Feito ❌ -->
 
+<a id='part1'></a>
 ## Part 1 - Libc functions
 
 | Função | codado | corrigido |
@@ -30,14 +38,20 @@ My personal library of C functions used in projects os 42 São Paulo
 | isprint | ❌ | ❌ |
 | toupper | ❌ | ❌ |
 | tolower | ✔️ | ❌ |
+[Voltar ao topo](#indice)
 
-## Part 1/2 - Malloc use
+<a id='part2'></a>
+## Part 2 - Malloc use
+
 | Função | codado | corrigido |
 | --- | --- | --- |
 | calloc | ❌ | ❌ |
 | strdup5 | ❌ | ❌ |
+[Voltar ao topo](#indice)
 
-## Part 2 - Additional functions
+<a id='part3'></a>
+## Part 3 - Additional functions
+
 | Função | codado | corrigido |
 | --- | --- | --- |
 | ft_substr | ❌ | ❌ |
@@ -50,8 +64,10 @@ My personal library of C functions used in projects os 42 São Paulo
 | ft_putstr_fd | ❌ | ❌ |
 | ft_putendl_fd | ❌ | ❌ |
 | ft_putnbr_fd | ❌ | ❌ |
+[Voltar ao topo](#indice)
 
-## Part 3 - Bonus
+<a id='part4'></a>
+## Part 4 - Bonus
 | Função | codado | corrigido |
 | --- | --- | --- |
 | ft_lstnew | ❌ | ❌ | 
@@ -63,3 +79,4 @@ My personal library of C functions used in projects os 42 São Paulo
 | ft_lstclear | ❌ | ❌ |
 | ft_lstiter | ❌ | ❌ |
 | ft_lstmap	 | ❌ | ❌ |
+[Voltar ao topo](#indice)
