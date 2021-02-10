@@ -1,8 +1,9 @@
 # Libft
-My personal library of C functions used in projects os 42 São Paulo
+My personal library of C functions used in projects of 42 São Paulo.
 
 <a id='indice'></a>
 ## Índice
+- [Makefile](#part0)
 - [Libc functions](#part1)
 - [Malloc use](#part2)
 - [Additional functions](#part3)
