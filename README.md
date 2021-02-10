@@ -55,7 +55,7 @@ My personal library of C functions used in projects of 42 São Paulo.
 | Função | codado | corrigido |
 | --- | --- | --- |
 | calloc | ❌ | ❌ |
-| strdup5 | ❌ | ❌ |
+| strdup | ❌ | ❌ |
 
 [Voltar ao topo](#indice)
 
