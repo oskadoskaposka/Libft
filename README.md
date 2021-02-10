@@ -3,29 +3,32 @@ My personal library of C functions used in projects os 42 São Paulo
 
 
 # Part 1 - Libc functions
-				codado		corrigido
-memset				0			0
-bzero				0			0
-memcpy				0			0
-memccpy				0			0
-memmove				0			0
-memchr				0			0
-memcmp				0			0
-strlen				0			0
-strlcpy				0			0
-strlcat				0			0
-strchr				0			0
-strrchr				0			0
-strnstr				0			0
-strncmp				0			0
-atoi				0			0
-isalpha				0			0
-isdigit				0			0
-isalnum				0			0
-isascii				0			0
-isprint				0			0
-toupper				0			0
-tolower				0			0
+
+| Função | codado | corrigido |
+| --- | --- | --- |
+| memset | 0 | 0 |
+| bzero	| 0 | 0 |
+| memcpy | 0 | 0 |
+| memccpy | 0 | 0 |
+| memmove | 0 | 0 |
+| memchr | 0 | 0 |
+| memcmp | 0 | 0 |
+| strlen | 0 | 0 |
+| strlcpy | 0 | 0 |
+| strlcat | 0 | 0 |
+| strchr | 0 | 0 |
+| strrchr | 0 | 0 |
+| strnstr | 0 | 0 |
+| strncmp | 0 | 0 |
+| atoi | 0 | 0 |
+| isalpha | 0 | 0 |
+| isdigit | 0 | 0 |
+| isalnum | 0 | 0 |
+| isascii | 0 | 0 |
+| isprint | 0 | 0 |
+| toupper | 0 | 0 |
+| tolower | 0 | 0 |
+| --- | --- | --- |
 
 # Part 1/2 - Malloc use
 				codado		corrigido
