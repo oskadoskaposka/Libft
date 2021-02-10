@@ -2,7 +2,7 @@
 My personal library of C functions used in projects of 42 São Paulo.
 
 <a id='indice'></a>
-## Índice
+## Index
 - [Makefile](#part0)
 - [Libc functions](#part1)
 - [Malloc use](#part2)
