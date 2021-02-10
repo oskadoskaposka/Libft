@@ -38,6 +38,7 @@ My personal library of C functions used in projects os 42 São Paulo
 | isprint | ❌ | ❌ |
 | toupper | ❌ | ❌ |
 | tolower | ✔️ | ❌ |
+
 [Voltar ao topo](#indice)
 
 <a id='part2'></a>
@@ -47,6 +48,7 @@ My personal library of C functions used in projects os 42 São Paulo
 | --- | --- | --- |
 | calloc | ❌ | ❌ |
 | strdup5 | ❌ | ❌ |
+
 [Voltar ao topo](#indice)
 
 <a id='part3'></a>
@@ -64,6 +66,7 @@ My personal library of C functions used in projects os 42 São Paulo
 | ft_putstr_fd | ❌ | ❌ |
 | ft_putendl_fd | ❌ | ❌ |
 | ft_putnbr_fd | ❌ | ❌ |
+
 [Voltar ao topo](#indice)
 
 <a id='part4'></a>
@@ -79,4 +82,5 @@ My personal library of C functions used in projects os 42 São Paulo
 | ft_lstclear | ❌ | ❌ |
 | ft_lstiter | ❌ | ❌ |
 | ft_lstmap	 | ❌ | ❌ |
+
 [Voltar ao topo](#indice)
