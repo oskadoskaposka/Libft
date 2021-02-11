@@ -80,6 +80,7 @@ My personal library of C functions used in projects of 42 São Paulo.
 [Back to top](#indice)
 
 <div align="center">
+<div></div>
 
 	<a id='part4'></a>
 	## Part 4 - Bonus
@@ -96,7 +97,7 @@ My personal library of C functions used in projects of 42 São Paulo.
 	| ft_lstmap	 | ❌ | ❌ | ❌ |
 
 	[Back to top](#indice)
-	
+
 </div>
 ----------------
 
