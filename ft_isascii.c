@@ -6,7 +6,14 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/10 01:49:46 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/02/10 01:49:47 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/02/10 22:14:40 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+int	ft_isascii(int c)
+{
+	if (c >= 0 && c <= 127)
+		return (1);
+	else
+		return (0);
+}

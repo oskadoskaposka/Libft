@@ -41,13 +41,13 @@ My personal library of C functions used in projects of 42 São Paulo.
 | strnstr | ✔️ | ❌ | ❌ |
 | strncmp | ✔️ | ❌ | ❌ |
 | atoi | ✔️ | ❌ | ❌ |
-| isalpha | ✔️ | ❌ | ❌ |
-| isdigit | ✔️ | ❌ | ❌ |
-| isalnum | ✔️ | ❌ | ❌ |
-| isascii | ✔️ | ❌ | ❌ |
-| isprint | ✔️ | ❌ | ❌ |
-| toupper | ✔️ | ❌ | ❌ |
-| tolower | ✔️ | ❌ | ❌ |
+| isalpha | ✔️ | ✔️ | ❌ |
+| isdigit | ✔️ | ✔️ | ❌ |
+| isalnum | ✔️ | ✔️ | ❌ |
+| isascii | ✔️ | ✔️ | ❌ |
+| isprint | ✔️ | ✔️ | ❌ |
+| toupper | ✔️ | ✔️ | ❌ |
+| tolower | ✔️ | ✔️ | ❌ |
 
 [Back to top](#indice)
 
