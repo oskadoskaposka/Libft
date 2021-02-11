@@ -3,7 +3,7 @@ My personal library of C functions used in projects of 42 São Paulo.
 
 ### Project Status
 
-[![Ale Paduan's 42Project Score](https://badge42.herokuapp.com/api/project/apaduan-/Libft)](https://github.com/JaeSeoKim/badge42)
+[![Ale Paduan's 42Project Score](https://badge42.herokuapp.com/api/project/apaduan-/Libft)](https://projects.intra.42.fr/42cursus-libft/apaduan-)
 
 --------------------
 
@@ -105,3 +105,6 @@ My personal library of C functions used in projects of 42 São Paulo.
 
 ### Remember, to copy is to cheat !!
 <img align="right" src="https://komarev.com/ghpvc/?username=oskadoskaposka&color=lightgrey&style=flat&label=visitors" alt="Visitors badge" />
+
+
+<!-- Badge do Projeto => https://github.com/JaeSeoKim/badge42 -->
