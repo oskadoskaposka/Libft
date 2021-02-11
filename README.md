@@ -79,26 +79,22 @@ My personal library of C functions used in projects of 42 São Paulo.
 
 [Back to top](#indice)
 
-<span align="center">
+<a id='part4'></a>
+## Part 4 - Bonus
+| Function | create | code | correct |
+| --- | --- | --- | --- |
+| ft_lstnew | ❌ | ❌ |  ❌ |
+| ft_lstadd_front | ❌ | ❌ | ❌ |
+| ft_lstsize | ❌ | ❌ | ❌ |
+| ft_lstlast | ❌ | ❌ | ❌ |
+| ft_lstadd_back | ❌ | ❌ | ❌ |
+| ft_lstdelone | ❌ | ❌ | ❌ |
+| ft_lstclear | ❌ | ❌ | ❌ |
+| ft_lstiter | ❌ | ❌ | ❌ |
+| ft_lstmap	 | ❌ | ❌ | ❌ |
 
-	<a id='part4'></a>
+[Back to top](#indice)
 
-	## Part 4 - Bonus
-	| Function | create | code | correct |
-	| --- | --- | --- | --- |
-	| ft_lstnew | ❌ | ❌ |  ❌ |
-	| ft_lstadd_front | ❌ | ❌ | ❌ |
-	| ft_lstsize | ❌ | ❌ | ❌ |
-	| ft_lstlast | ❌ | ❌ | ❌ |
-	| ft_lstadd_back | ❌ | ❌ | ❌ |
-	| ft_lstdelone | ❌ | ❌ | ❌ |
-	| ft_lstclear | ❌ | ❌ | ❌ |
-	| ft_lstiter | ❌ | ❌ | ❌ |
-	| ft_lstmap	 | ❌ | ❌ | ❌ |
-
-	[Back to top](#indice)
-
-</span>
 ----------------
 
 [![Ale Paduan 42 stats](https://badge42.herokuapp.com/api/stats/apaduan-?privacyEmail=true&cursus=cursus_name)](https://github.com/JaeSeoKim/badge42)
