@@ -83,6 +83,7 @@ My personal library of C functions used in projects of 42 São Paulo.
 <div></div>
 
 	<a id='part4'></a>
+	
 	## Part 4 - Bonus
 	| Function | create | code | correct |
 	| --- | --- | --- | --- |
