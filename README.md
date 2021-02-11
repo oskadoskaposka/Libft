@@ -79,11 +79,10 @@ My personal library of C functions used in projects of 42 São Paulo.
 
 [Back to top](#indice)
 
-<div align="center">
-<div></div>
+<span align="center">
 
 	<a id='part4'></a>
-	
+
 	## Part 4 - Bonus
 	| Function | create | code | correct |
 	| --- | --- | --- | --- |
@@ -99,7 +98,7 @@ My personal library of C functions used in projects of 42 São Paulo.
 
 	[Back to top](#indice)
 
-</div>
+</span>
 ----------------
 
 [![Ale Paduan 42 stats](https://badge42.herokuapp.com/api/stats/apaduan-?privacyEmail=true&cursus=cursus_name)](https://github.com/JaeSeoKim/badge42)
