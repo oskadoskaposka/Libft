@@ -97,7 +97,7 @@ My personal library of C functions used in projects of 42 São Paulo.
 
 ----------------
 
-[![Ale Paduan 42 stats](https://badge42.herokuapp.com/api/stats/apaduan-)](https://github.com/JaeSeoKim/badge42)
+[![Ale Paduan 42 stats](https://badge42.herokuapp.com/api/stats/apaduan-?privacyEmail=true)](https://github.com/JaeSeoKim/badge42)
 
 ----------------
 
