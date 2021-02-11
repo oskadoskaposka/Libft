@@ -97,5 +97,9 @@ My personal library of C functions used in projects of 42 São Paulo.
 
 ----------------
 
+[![Ale Paduan 42 stats](https://badge42.herokuapp.com/api/stats/apaduan-)](https://github.com/JaeSeoKim/badge42)
+
+----------------
+
 ### Remember, to copy is to cheat !!
 <img align="right" src="https://komarev.com/ghpvc/?username=oskadoskaposka&color=lightgrey&style=flat&label=visitors" alt="Visitors badge" />
