@@ -6,7 +6,16 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/10 01:50:33 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/02/10 01:50:33 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/02/13 21:15:13 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+int	ft_strlen(char *str)
+{
+	int i;
+
+	i = 0;
+	while (str[i] != '\0')
+		i++;
+	return (i);
+}
