@@ -32,21 +32,21 @@ My personal library of C functions used in projects of 42 São Paulo.
 
 | Function | create | code | correct |
 | --- | --- | --- | --- |
-| memset | ✔️ | ❌ | ❌ |
-| bzero	| ✔️ | ❌ | ❌ |
-| memcpy | ✔️ | ❌ | ❌ |
-| memccpy | ✔️ | ❌ | ❌ |
-| memmove | ✔️ | ❌ | ❌ |
-| memchr | ✔️ | ❌ | ❌ |
-| memcmp | ✔️ | ❌ | ❌ |
+| memset | ❌ | ❌ | ❌ |
+| bzero	| ❌ | ❌ | ❌ |
+| memcpy | ❌ | ❌ | ❌ |
+| memccpy | ❌ | ❌ | ❌ |
+| memmove | ❌ | ❌ | ❌ |
+| memchr | ❌ | ❌ | ❌ |
+| memcmp | ❌ | ❌ | ❌ |
 | strlen | ✔️ | ✔️ | ❌ |
 | strlcpy | ✔️ | ✔️ | ❌ |
 | strlcat | ✔️ | ❌ | ❌ |
-| strchr | ✔️ | ❌ | ❌ |
-| strrchr | ✔️ | ❌ | ❌ |
-| strnstr | ✔️ | ❌ | ❌ |
+| strchr | ❌ | ❌ | ❌ |
+| strrchr | ❌ | ❌ | ❌ |
+| strnstr | ❌ | ❌ | ❌ |
 | strncmp | ✔️ | ✔️ | ❌ |
-| atoi | ✔️ | ❌ | ❌ |
+| atoi | ❌ | ❌ | ❌ |
 | isalpha | ✔️ | ✔️ | ❌ |
 | isdigit | ✔️ | ✔️ | ❌ |
 | isalnum | ✔️ | ✔️ | ❌ |
@@ -62,8 +62,8 @@ My personal library of C functions used in projects of 42 São Paulo.
 
 | Function | create | code | correct |
 | --- | --- | --- | --- |
-| calloc | ✔️ | ❌ | ❌ |
-| strdup | ✔️ | ❌ | ❌ |
+| calloc | ❌ | ❌ | ❌ |
+| strdup | ❌ | ❌ | ❌ |
 
 [Back to top](#indice)
 
