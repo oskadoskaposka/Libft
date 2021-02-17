@@ -23,7 +23,7 @@ My personal library of C functions used in projects of 42 São Paulo.
 
 | Function | create | code | correct |
 | --- | --- | --- | --- |
-| Makefile | ✔️ | ❌ | ❌ |
+| Makefile | ✔️ | ✔️ | ✔️ |
 
 [Back to top](#indice)
 
@@ -39,7 +39,7 @@ My personal library of C functions used in projects of 42 São Paulo.
 | memmove | ❌ | ❌ | ❌ |
 | memchr | ❌ | ❌ | ❌ |
 | memcmp | ❌ | ❌ | ❌ |
-| strlen | ✔️ | ✔️ | ❌ |
+| strlen | ✔️ | ✔️ | ✔️ |
 | strlcpy | ✔️ | ✔️ | ❌ |
 | strlcat | ✔️ | ❌ | ❌ |
 | strchr | ❌ | ❌ | ❌ |
@@ -47,12 +47,12 @@ My personal library of C functions used in projects of 42 São Paulo.
 | strnstr | ❌ | ❌ | ❌ |
 | strncmp | ✔️ | ✔️ | ❌ |
 | atoi | ❌ | ❌ | ❌ |
-| isalpha | ✔️ | ✔️ | ❌ |
-| isdigit | ✔️ | ✔️ | ❌ |
+| isalpha | ✔️ | ✔️ | ✔️ |
+| isdigit | ✔️ | ✔️ | ✔️ |
 | isalnum | ✔️ | ✔️ | ❌ |
-| isascii | ✔️ | ✔️ | ❌ |
-| isprint | ✔️ | ✔️ | ❌ |
-| toupper | ✔️ | ✔️ | ❌ |
+| isascii | ✔️ | ✔️ | ✔️ |
+| isprint | ✔️ | ✔️ | ✔️ |
+| toupper | ✔️ | ✔️ | ✔️ |
 | tolower | ✔️ | ✔️ | ❌ |
 
 [Back to top](#indice)
