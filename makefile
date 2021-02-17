@@ -35,17 +35,26 @@ CC_FLAGS=-Wall         \
 all: $(NAME)
 
 $(NAME):$(OUT)
-	ar rcs  $(NAME) $(OUT)
+	@ar rcs  $(NAME) $(OUT)
+	@echo "Creating $(NAME)"
 
 $(OUT): $(C_SOURCE) $(H_SOURCE)
-	$(CC) $(CC_FLAGS) -c $(C_SOURCE)
+	@$(CC) $(CC_FLAGS) -c $(C_SOURCE)
+	@echo "Creating $(OUT)"
 
 clean:
-	rm -f $(OUT)
+	@rm -f $(OUT)
+	@echo "Removing $(OUT)"
 
 fclean: clean
-	rm -f $(NAME)
+	@rm -f $(NAME)
+	@echo "Removing $(NAME)"
 
 re: fclean all
 
-
+#To use this command in terminal write:
+# make git m="your message"
+git:
+	git add .
+	git commit -m "$m"
+	git push
