@@ -55,6 +55,6 @@ re: fclean all
 #To use this command in terminal write:
 # make git m="your message"
 git:
-	git add .
-	git commit -m "$m"
-	git push
+	@git add .
+	@git commit -m "$m"
+	@git push
