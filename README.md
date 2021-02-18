@@ -49,11 +49,11 @@ My personal library of C functions used in projects of 42 São Paulo.
 | atoi | ❌ | ❌ | ❌ |
 | isalpha | ✔️ | ✔️ | ✔️ |
 | isdigit | ✔️ | ✔️ | ✔️ |
-| isalnum | ✔️ | ✔️ | ❌ |
+| isalnum | ✔️ | ✔️ | ✔️ |
 | isascii | ✔️ | ✔️ | ✔️ |
 | isprint | ✔️ | ✔️ | ✔️ |
 | toupper | ✔️ | ✔️ | ✔️ |
-| tolower | ✔️ | ✔️ | ❌ |
+| tolower | ✔️ | ✔️ | ✔️ |
 
 [Back to top](#indice)
 
