@@ -6,7 +6,7 @@
 #    By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/02/17 01:47:09 by apaduan-          #+#    #+#              #
-#    Updated: 2021/02/17 15:02:21 by apaduan-         ###   ########.fr        #
+#    Updated: 2021/02/18 17:48:17 by apaduan-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,7 +35,7 @@ H_SOURCE=libft.h
 OUT=$(C_SOURCE:.c=.o)
  
 # Compiler
-CC=gcc
+CC=clang
  
 # Flags for compiler
 CC_FLAGS=-Wall         \
