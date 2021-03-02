@@ -6,7 +6,7 @@
 #    By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/02/17 01:47:09 by apaduan-          #+#    #+#              #
-#    Updated: 2021/03/02 01:26:26 by apaduan-         ###   ########.fr        #
+#    Updated: 2021/03/02 01:48:44 by apaduan-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,7 +32,8 @@ C_SOURCE=ft_isalnum.c \
 		 ft_strnstr.c \
 		 ft_memcpy.c \
 		 ft_memccpy.c \
-		 ft_memchr.c
+		 ft_memchr.c \
+		 ft_memcmp.c
  
 # .h files
 H_SOURCE=libft.h

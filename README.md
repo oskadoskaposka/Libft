@@ -38,7 +38,7 @@ My personal library of C functions used in projects of 42 São Paulo.
 | memccpy | ✔️ | ✔️ | ❌ |
 | memmove | ❌ | ❌ | ❌ |
 | memchr | ✔️ | ✔️ | ❌ |
-| memcmp | ❌ | ❌ | ❌ |
+| memcmp | ✔️ | ✔️ | ❌ |
 | strlen | ✔️ | ✔️ | ✔️ |
 | strlcpy | ✔️ | ✔️ | ❌ |
 | strlcat | ✔️ | ✔️ | ❌ |
