@@ -34,17 +34,17 @@ My personal library of C functions used in projects of 42 São Paulo.
 | --- | --- | --- | --- |
 | memset | ❌ | ❌ | ❌ |
 | bzero	| ❌ | ❌ | ❌ |
-| memcpy | ❌ | ❌ | ❌ |
+| memcpy |  ✔️ | ✔️ | ❌ |
 | memccpy | ❌ | ❌ | ❌ |
 | memmove | ❌ | ❌ | ❌ |
 | memchr | ❌ | ❌ | ❌ |
 | memcmp | ❌ | ❌ | ❌ |
 | strlen | ✔️ | ✔️ | ✔️ |
 | strlcpy | ✔️ | ✔️ | ❌ |
-| strlcat | ✔️ | ❌ | ❌ |
-| strchr | ❌ | ❌ | ❌ |
-| strrchr | ❌ | ❌ | ❌ |
-| strnstr | ❌ | ❌ | ❌ |
+| strlcat | ✔️ | ✔️ | ❌ |
+| strchr | ✔️ | ✔️| ❌ |
+| strrchr | ✔️ | ✔️ | ❌ |
+| strnstr | ✔️ | ✔️ | ❌ |
 | strncmp | ✔️ | ✔️ | ❌ |
 | atoi | ❌ | ❌ | ❌ |
 | isalpha | ✔️ | ✔️ | ✔️ |

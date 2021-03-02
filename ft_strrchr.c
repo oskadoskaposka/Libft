@@ -1,33 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlcat.c                                       :+:      :+:    :+:   */
+/*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/10 01:50:27 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/02/18 18:26:09 by apaduan-         ###   ########.fr       */
+/*   Created: 2021/02/24 21:01:15 by apaduan-          #+#    #+#             */
+/*   Updated: 2021/03/01 16:19:45 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_strlcat(char *dest, char *src, unsigned int size)
+char	*ft_strrchr(char *s, int c)
 {
-	unsigned int n;
-	unsigned int i;
+	int i;
 
-	n = ft_strlen(dest);
-	i = 0;
-	if (n < size)
+	i = ft_strlen(s) - 1;
+	while (s[i] || s[i] == c)
 	{
-		while (src[i] != '\0' && ((n + i + 1) < size))
-		{
-			dest[n + i] = src[i];
-			i++;
-		}
-		dest[n + i] = '\0';
-		return (ft_strlen(dest) + ft_strlen(src));
+		if (s[i] == c)
+			return (&s[i]);
+		i--;
 	}
-	return (ft_strlen(src) + size);
+	return (NULL);
 }
+
+// int main(void)
+// {
+// 	char *s = "teste 123";
+
+// 	printf("o valor é: %s \n", ft_strrchr(s, 'e'));
+// }

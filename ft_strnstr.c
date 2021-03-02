@@ -1,33 +1,44 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlcat.c                                       :+:      :+:    :+:   */
+/*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/10 01:50:27 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/02/18 18:26:09 by apaduan-         ###   ########.fr       */
+/*   Created: 2021/02/21 16:52:13 by apaduan-          #+#    #+#             */
+/*   Updated: 2021/03/01 20:51:02 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_strlcat(char *dest, char *src, unsigned int size)
+char	*ft_strnstr(char *big, char *lil, unsigned int len)
 {
-	unsigned int n;
 	unsigned int i;
+	unsigned int n;
 
-	n = ft_strlen(dest);
 	i = 0;
-	if (n < size)
+	while (big[i] != '\0' || i < len)
 	{
-		while (src[i] != '\0' && ((n + i + 1) < size))
-		{
-			dest[n + i] = src[i];
-			i++;
-		}
-		dest[n + i] = '\0';
-		return (ft_strlen(dest) + ft_strlen(src));
+		n = 0;
+		while (lil[n] != '\0' && i + n < len && lil[n] == big [i + n])
+			n++;
+		if (lil[n] == '\0')
+			return (&big[i]);
+		i++;	
 	}
-	return (ft_strlen(src) + size);
+	return (NULL);
 }
+
+// #include <stdio.h>
+
+// int main(void)
+// {
+// 		char *grande = "Foo Bar Baz";
+// 		char *pqna = "Bar";
+// 		char	*ptr;
+
+// 		ptr = ft_strnstr(grande, pqna, 5);
+
+// 		printf("%s \n\n", ptr);
+// }

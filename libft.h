@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/16 13:58:23 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/02/18 15:27:30 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/03/02 00:12:01 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,5 +29,11 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n);
 
 int	ft_tolower(int c);
 int	ft_toupper(int c);
+
+char *ft_strchr(char *s, int c);
+char	*ft_strrchr(char *s, int c);
+char	*ft_strnstr(char *big, char *lil, unsigned int len);
+
+void	*ft_memcpy (void *dest, const void *src, unsigned int len);
 
 #endif
