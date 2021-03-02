@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/16 13:58:23 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/03/02 00:12:01 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/03/02 01:27:44 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,5 +35,7 @@ char	*ft_strrchr(char *s, int c);
 char	*ft_strnstr(char *big, char *lil, unsigned int len);
 
 void	*ft_memcpy (void *dest, const void *src, unsigned int len);
+void	*ft_memccpy(void *dest, const void *src, int c, unsigned int len);
+const void	*ft_memchr (const void *b, int c, unsigned int len);
 
 #endif
