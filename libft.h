@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/16 13:58:23 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/03/02 01:54:45 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/03/04 02:01:27 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,5 +38,10 @@ void	*ft_memcpy (void *dest, const void *src, unsigned int len);
 void	*ft_memccpy(void *dest, const void *src, int c, unsigned int len);
 const void	*ft_memchr (const void *b, int c, unsigned int len);
 int ft_memcmp(const void *s1, const void *s2, unsigned int len);
+
+void	*ft_memmove (void *dest, const void *src, unsigned int len);
+void	*ft_memset(void *dest,	int c, unsigned int len);
+
+void	ft_bzero(void	*str, unsigned len);
 
 #endif

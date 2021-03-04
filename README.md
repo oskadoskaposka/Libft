@@ -32,19 +32,19 @@ My personal library of C functions used in projects of 42 São Paulo.
 
 | Function | create | code | correct |
 | --- | --- | --- | --- |
-| memset | ❌ | ❌ | ❌ |
-| bzero	| ❌ | ❌ | ❌ |
-| memcpy |  ✔️ | ✔️ | ❌ |
+| memset | ✔️ | ✔️ | ✔️ |
+| bzero	| ✔️ | ✔️ | ❌ |
+| memcpy |  ✔️ | ✔️ | ✔️ |
 | memccpy | ✔️ | ✔️ | ❌ |
-| memmove | ❌ | ❌ | ❌ |
-| memchr | ✔️ | ✔️ | ❌ |
+| memmove | ✔️ | ✔️ | ❌ |
+| memchr | ✔️ | ✔️ | ✔️ |
 | memcmp | ✔️ | ✔️ | ❌ |
 | strlen | ✔️ | ✔️ | ✔️ |
 | strlcpy | ✔️ | ✔️ | ❌ |
 | strlcat | ✔️ | ✔️ | ❌ |
 | strchr | ✔️ | ✔️| ❌ |
 | strrchr | ✔️ | ✔️ | ❌ |
-| strnstr | ✔️ | ✔️ | ❌ |
+| strnstr | ✔️ | ✔️ | ✔️ |
 | strncmp | ✔️ | ✔️ | ❌ |
 | atoi | ❌ | ❌ | ❌ |
 | isalpha | ✔️ | ✔️ | ✔️ |
