@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/16 13:58:23 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/03/04 02:01:27 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/05/25 19:34:33 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,5 +43,9 @@ void	*ft_memmove (void *dest, const void *src, unsigned int len);
 void	*ft_memset(void *dest,	int c, unsigned int len);
 
 void	ft_bzero(void	*str, unsigned len);
+
+// my personal functions
+int	ft_isspace (char c);
+int	ft_transform_sign (int c);
 
 #endif
