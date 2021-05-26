@@ -105,5 +105,4 @@ My personal library of C functions used in projects of 42 São Paulo.
 
 <img align="right" src="https://komarev.com/ghpvc/?username=oskadoskaposka&color=lightgrey&style=flat&label=visitors" alt="Visitors badge" />
 
-
 <!-- Badge do Projeto => https://github.com/JaeSeoKim/badge42 -->

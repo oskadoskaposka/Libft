@@ -1,22 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isspace.c                                       :+:      :+:    :+:   */
+/*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/24 15:08:23 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/05/26 01:44:59 by apaduan-         ###   ########.fr       */
+/*   Created: 2021/05/26 20:20:30 by apaduan-          #+#    #+#             */
+/*   Updated: 2021/05/26 20:23:34 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isspace (char c)
+void	ft_putchar_fd(char c, unsigned int fd)
 {
-	if (c == 32 || c == 12 || c == 10 || c == 13 || c == 9 || c == 11)
-	{
-		return (1);
-	}
-	return (0);
+	write(fd, &c, 1);
 }

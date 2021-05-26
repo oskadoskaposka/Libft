@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/16 13:58:23 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/05/26 01:23:29 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/05/26 20:24:04 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,6 +49,10 @@ int			ft_atoi (const char *p);
 
 void		*ft_calloc(unsigned int number, unsigned int bytes);
 char		*ft_strdup(const char *str);
+
+void		ft_putchar_fd(char c, unsigned int fd);
+
+
 
 // my personal functions
 int			ft_isspace (char c);
