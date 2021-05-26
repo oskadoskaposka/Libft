@@ -46,7 +46,7 @@ My personal library of C functions used in projects of 42 São Paulo.
 | strrchr | ✔️ | ✔️ | ❌ |
 | strnstr | ✔️ | ✔️ | ✔️ |
 | strncmp | ✔️ | ✔️ | ❌ |
-| atoi | ✔️ | ✔️ | ❌ |
+| atoi | ✔️ | ✔️ | ✔️ |
 | isalpha | ✔️ | ✔️ | ✔️ |
 | isdigit | ✔️ | ✔️ | ✔️ |
 | isalnum | ✔️ | ✔️ | ✔️ |
@@ -103,7 +103,6 @@ My personal library of C functions used in projects of 42 São Paulo.
 
 ----------------
 
-### Remember, to copy is to cheat !!
 <img align="right" src="https://komarev.com/ghpvc/?username=oskadoskaposka&color=lightgrey&style=flat&label=visitors" alt="Visitors badge" />
 
 
