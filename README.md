@@ -46,7 +46,7 @@ My personal library of C functions used in projects of 42 São Paulo.
 | strrchr | ✔️ | ✔️ | ❌ |
 | strnstr | ✔️ | ✔️ | ✔️ |
 | strncmp | ✔️ | ✔️ | ❌ |
-| atoi | ❌ | ❌ | ❌ |
+| atoi | ✔️ | ✔️ | ❌ |
 | isalpha | ✔️ | ✔️ | ✔️ |
 | isdigit | ✔️ | ✔️ | ✔️ |
 | isalnum | ✔️ | ✔️ | ✔️ |
