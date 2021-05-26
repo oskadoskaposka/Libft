@@ -6,7 +6,7 @@
 #    By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/02/17 01:47:09 by apaduan-          #+#    #+#              #
-#    Updated: 2021/05/25 19:34:48 by apaduan-         ###   ########.fr        #
+#    Updated: 2021/05/25 23:21:21 by apaduan-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -38,7 +38,8 @@ C_SOURCE=ft_isalnum.c \
 		 ft_memset.c \
 		 ft_bzero.c \
 		 ft_isspace.c \
-		 ft_transform_sign.c
+		 ft_transform_sign.c \
+		 ft_atoi.c
  
 # .h files
 H_SOURCE=libft.h
