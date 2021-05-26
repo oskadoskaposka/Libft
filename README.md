@@ -62,8 +62,8 @@ My personal library of C functions used in projects of 42 São Paulo.
 
 | Function | create | code | correct |
 | --- | --- | --- | --- |
-| calloc | ❌ | ❌ | ❌ |
-| strdup | ❌ | ❌ | ❌ |
+| calloc | ✔️ | ✔️ | ✔️ |
+| strdup | ✔️ | ✔️ | ✔️ |
 
 [Back to top](#indice)
 

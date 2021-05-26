@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/16 13:58:23 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/05/26 00:41:35 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/05/26 01:23:29 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ int			ft_isprint(int c);
 
 int			ft_strlcat(char *dest, char *src, unsigned int size);
 int			ft_strlcpy(char *dest, const char *src, unsigned int size);
-int			ft_strlen(char *str);
+int			ft_strlen(const char *str);
 int			ft_strncmp(char *s1, char *s2, unsigned int n);
 
 int			ft_tolower(int c);
@@ -46,10 +46,12 @@ void		*ft_memset(void *dest,	int c, unsigned int len);
 void		ft_bzero(void	*str, unsigned int len);
 int			ft_atoi (const char *p);
 
+
+void		*ft_calloc(unsigned int number, unsigned int bytes);
+char		*ft_strdup(const char *str);
+
 // my personal functions
 int			ft_isspace (char c);
 int			ft_transform_sign (int c);
-
-void		*ft_calloc(unsigned int number, unsigned int bytes);
 
 #endif

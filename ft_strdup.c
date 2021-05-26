@@ -1,21 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/10 01:50:33 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/05/26 01:22:44 by apaduan-         ###   ########.fr       */
+/*   Created: 2021/05/26 01:09:50 by apaduan-          #+#    #+#             */
+/*   Updated: 2021/05/26 01:22:31 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlen(const char *str)
-{
-	int	i;
+#include "libft.h"
 
-	i = 0;
-	while (str[i] != '\0')
-		i++;
-	return (i);
+char	*ft_strdup(const char *str)
+{
+	int		len;
+	char	*dest;
+
+	len = ft_strlen(str) + 1;
+	dest = malloc(len);
+	ft_memcpy(dest, str, len);
+	return (dest);
 }
