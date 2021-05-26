@@ -6,15 +6,15 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/02 21:47:32 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/03/03 17:16:18 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/05/26 00:43:58 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	*ft_memmove (void *dest, const void *src, unsigned int len)
 {
-	unsigned int i;
-	char *cdest;
-	const char *csrc;
+	unsigned int	i;
+	char			*cdest;
+	const char		*csrc;
 
 	i = 0;
 	cdest = dest;

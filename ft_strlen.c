@@ -6,13 +6,13 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/10 01:50:33 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/02/17 22:05:11 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/05/26 00:43:27 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_strlen(char *str)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (str[i] != '\0')

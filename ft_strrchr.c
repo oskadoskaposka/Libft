@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/24 21:01:15 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/05/24 19:00:45 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/05/26 00:38:40 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*ft_strrchr(char *s, int c)
 {
-	int i;
+	int	i;
 
 	i = ft_strlen(s) - 1;
 	while (s[i] || s[i] == c)

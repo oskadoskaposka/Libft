@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/10 01:50:27 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/02/18 18:26:09 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/05/26 00:42:45 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 int	ft_strlcat(char *dest, char *src, unsigned int size)
 {
-	unsigned int n;
-	unsigned int i;
+	unsigned int	n;
+	unsigned int	i;
 
 	n = ft_strlen(dest);
 	i = 0;

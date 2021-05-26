@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/02 00:18:36 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/03/02 01:22:22 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/05/26 00:35:50 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 void	*ft_memccpy(void *dest, const void *src, int c, unsigned int len)
 {
-	unsigned int i;
-	char *cdest;
-	const char *csrc;
+	unsigned int	i;
+	char			*cdest;
+	const char		*csrc;
 
 	i = 0;
 	cdest = dest;

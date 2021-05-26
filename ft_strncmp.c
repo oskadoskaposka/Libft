@@ -6,13 +6,13 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/10 01:50:37 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/02/13 21:06:43 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/05/26 00:42:24 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_strncmp(char *s1, char *s2, unsigned int n)
 {
-	unsigned int i;
+	unsigned int	i;
 
 	i = 0;
 	while ((s1[i] != '\0' || s2[i] != '\0') && i < n)
