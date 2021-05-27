@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/16 13:58:23 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/05/26 20:59:03 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/05/26 21:38:58 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,6 +52,7 @@ char		*ft_strdup(const char *str);
 
 void		ft_putchar_fd(char c, int fd);
 void		ft_putstr_fd(char *str, int fd);
+void		ft_putendl_fd(char *str, int fd);
 
 
 // my personal functions

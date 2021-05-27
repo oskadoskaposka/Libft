@@ -78,9 +78,9 @@ My personal library of C functions used in projects of 42 São Paulo.
 | ft_split | ❌ | ❌ | ❌ |
 | ft_itoa | ❌ | ❌ | ❌ |
 | ft_strmapi | ❌ | ❌ | ❌ |
-| ft_putchar_fd | ❌ | ❌ | ❌ |
-| ft_putstr_fd | ❌ | ❌ | ❌ |
-| ft_putendl_fd | ❌ | ❌ | ❌ |
+| ft_putchar_fd | ✔️ | ✔️ | ✔️ |
+| ft_putstr_fd | ✔️ | ✔️ | ✔️ |
+| ft_putendl_fd | ✔️ | ✔️ | ✔️ |
 | ft_putnbr_fd | ❌ | ❌ | ❌ |
 
 [Back to top](#indice)
