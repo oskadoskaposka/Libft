@@ -6,7 +6,7 @@
 #    By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/02/17 01:47:09 by apaduan-          #+#    #+#              #
-#    Updated: 2021/05/26 22:35:07 by apaduan-         ###   ########.fr        #
+#    Updated: 2021/05/30 13:29:38 by apaduan-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -44,7 +44,8 @@ C_SOURCE=ft_isalnum.c \
 		 ft_strdup.c \
 		 ft_putchar_fd.c \
 		 ft_putendl_fd.c \
-		 ft_putnbr_fd.c
+		 ft_putnbr_fd.c \
+		 ft_substr.c
  
 # .h files
 H_SOURCE=libft.h

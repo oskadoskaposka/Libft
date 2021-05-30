@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/16 13:58:23 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/05/26 22:34:51 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/05/30 13:29:22 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,8 @@ void		ft_putchar_fd(char c, int fd);
 void		ft_putstr_fd(char *str, int fd);
 void		ft_putendl_fd(char *str, int fd);
 void		ft_putnbr_fd(int n, int fd);
+
+char		*ft_substr(char const *s, unsigned int start, size_t len);
 
 
 // my personal functions
