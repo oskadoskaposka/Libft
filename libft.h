@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/16 13:58:23 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/05/30 13:29:22 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/05/30 14:17:40 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ void		ft_putendl_fd(char *str, int fd);
 void		ft_putnbr_fd(int n, int fd);
 
 char		*ft_substr(char const *s, unsigned int start, size_t len);
-
+char		*ft_strjoin(char const *s1, char const *s2);
 
 // my personal functions
 int			ft_isspace (char c);

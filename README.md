@@ -14,6 +14,7 @@ Why use other people functions when you can create your own?
 - [Malloc use](#part2)
 - [Additional functions](#part3)
 - [Bonus](#part4)
+- [Personal functions](#part5)
 
 <!-- Feito ✔️ -->
 <!-- Não Feito ❌ -->
@@ -98,6 +99,15 @@ Why use other people functions when you can create your own?
 | ft_lstclear | ❌ | ❌ | ❌ |
 | ft_lstiter | ❌ | ❌ | ❌ |
 | ft_lstmap	 | ❌ | ❌ | ❌ |
+
+[Back to top](#indice)
+
+<a id='part5'></a>
+## Part 5 - Personal functions
+| Function | create | code | correct |
+| --- | --- | --- | --- |
+| ft_isspace | ✔️ | ✔️ | ✔️ |
+| ft_transform_sign | ✔️ | ✔️ | ✔️ |
 
 [Back to top](#indice)
 
