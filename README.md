@@ -1,5 +1,5 @@
 # Libft
-Why use others functions when you can create yours??.
+Why use other people functions when you can create your own??
 
 ### Project Status
 
