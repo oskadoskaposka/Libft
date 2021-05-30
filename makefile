@@ -6,7 +6,7 @@
 #    By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/02/17 01:47:09 by apaduan-          #+#    #+#              #
-#    Updated: 2021/05/30 14:17:52 by apaduan-         ###   ########.fr        #
+#    Updated: 2021/05/30 14:35:16 by apaduan-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -45,6 +45,7 @@ C_SOURCE=ft_isalnum.c \
 		 ft_putchar_fd.c \
 		 ft_putendl_fd.c \
 		 ft_putnbr_fd.c \
+		 ft_putstr_fd.c \
 		 ft_substr.c \
 		 ft_strjoin.c
  
