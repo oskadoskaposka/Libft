@@ -1,5 +1,5 @@
 # Libft
-My personal library of C functions used in projects of 42 São Paulo.
+Why use other people functions when you can create your own??
 
 ### Project Status
 
