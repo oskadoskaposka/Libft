@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/16 13:58:23 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/02 18:13:23 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/02 18:15:33 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ int			ft_isprint(int c);
 int			ft_strlcat(char *dest, char *src, unsigned int size);
 int			ft_strlcpy(char *dest, const char *src, unsigned int size);
 int			ft_strlen(const char *str);
-int			ft_strncmp(const char *s1, const char *s2, unsigned int n);
+int			ft_strncmp(const char *s1, const char *s2, size_t n);
 
 int			ft_tolower(int c);
 int			ft_toupper(int c);
