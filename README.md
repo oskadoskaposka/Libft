@@ -34,18 +34,18 @@ Why use other people functions when you can create your own?
 | Function | create | code | correct |
 | --- | --- | --- | --- |
 | memset | ✔️ | ✔️ | ✔️ |
-| bzero	| ✔️ | ✔️ | ❌ |
+| bzero	| ✔️ | ✔️ | ✔️ |
 | memcpy |  ✔️ | ✔️ | ✔️ |
-| memccpy | ✔️ | ✔️ | ❌ |
-| memmove | ✔️ | ✔️ | ❌ |
+| memccpy | ✔️ | ✔️ | ✔️ |
+| memmove | ✔️ | ✔️ | ✔️ |
 | memchr | ✔️ | ✔️ | ✔️ |
-| memcmp | ✔️ | ✔️ | ❌ |
+| memcmp | ✔️ | ✔️ | ✔️ |
 | strlen | ✔️ | ✔️ | ✔️ |
 | strlcpy | ✔️ | ✔️ | ❌ |
 | strlcat | ✔️ | ✔️ | ❌ |
 | strchr | ✔️ | ✔️| ❌ |
 | strrchr | ✔️ | ✔️ | ❌ |
-| strnstr | ✔️ | ✔️ | ✔️ |
+| strnstr | ✔️ | ✔️ | ❌ |
 | strncmp | ✔️ | ✔️ | ❌ |
 | atoi | ✔️ | ✔️ | ✔️ |
 | isalpha | ✔️ | ✔️ | ✔️ |
