@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/18 18:28:28 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/05/26 00:43:18 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/02 17:52:53 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,16 +14,11 @@
 
 char	*ft_strchr(char *s, int c)
 {
-	int	i;
-
-	i = 0;
-	if (c == '\0')
-		return (&s[i]);
-	while (s[i] || s[i] == c)
+	while (*s != c)
 	{
-		if (s[i] == c)
-			return (&s[i]);
-		i++;
+		if (*s == '\0')
+			return (NULL);
+		s++;
 	}
-	return (NULL);
+	return ((char *)s);
 }
