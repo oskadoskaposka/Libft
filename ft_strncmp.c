@@ -6,9 +6,11 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/10 01:50:37 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/02 18:11:28 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/02 18:12:33 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_strncmp(const char *s1, const char *s2, unsigned int n)
 {
