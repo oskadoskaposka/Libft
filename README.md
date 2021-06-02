@@ -43,10 +43,10 @@ Why use other people functions when you can create your own?
 | strlen | ✔️ | ✔️ | ✔️ |
 | strlcpy | ✔️ | ✔️ | ❌ |
 | strlcat | ✔️ | ✔️ | ❌ |
-| strchr | ✔️ | ✔️| ❌ |
-| strrchr | ✔️ | ✔️ | ❌ |
-| strnstr | ✔️ | ✔️ | ❌ |
-| strncmp | ✔️ | ✔️ | ❌ |
+| strchr | ✔️ | ✔️| ✔️ |
+| strrchr | ✔️ | ✔️ | ✔️ |
+| strnstr | ✔️ | ✔️ | ✔️ |
+| strncmp | ✔️ | ✔️ | ✔️ |
 | atoi | ✔️ | ✔️ | ✔️ |
 | isalpha | ✔️ | ✔️ | ✔️ |
 | isdigit | ✔️ | ✔️ | ✔️ |
