@@ -6,11 +6,11 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/10 01:50:37 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/02 18:08:26 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/02 18:09:50 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strncmp(char *s1, char *s2, unsigned int n)
+int	ft_strncmp(const char *s1, const char *s2, unsigned int n)
 {
 	unsigned int	i;
 
