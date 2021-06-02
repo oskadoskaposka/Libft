@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/02 21:47:32 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/05/26 00:43:58 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/02 12:26:25 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,14 +17,16 @@ void	*ft_memmove (void *dest, const void *src, unsigned int len)
 	const char		*csrc;
 
 	i = 0;
-	cdest = dest;
-	csrc = src;
+	cdest = (char *)dest;
+	csrc = (char *)src;
 	if (cdest == csrc)
 		return (dest);
-	while (i < len)
+	while (len > 0)
 	{
-		cdest[i] = csrc[i];
-		i++;
+		*cdest = *csrc;
+		cdest++;
+		csrc++;
+		len--;
 	}
 	return (dest);
 }
