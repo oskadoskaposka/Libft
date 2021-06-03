@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/30 13:51:38 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/01 19:24:49 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/03 00:04:18 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,8 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	size_s1 = ft_strlen(s1);
 	size_s2 = ft_strlen(s2);
 	dest = malloc ((size_s1 + size_s2 + 1));
+	if (!dest)
+		return (NULL);
 	i = 0;
 	j = 0;
 	while (s1[i] != '\0')
