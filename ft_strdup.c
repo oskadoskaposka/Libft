@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/26 01:09:50 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/05/26 01:22:31 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/02 23:18:49 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@ char	*ft_strdup(const char *str)
 
 	len = ft_strlen(str) + 1;
 	dest = malloc(len);
+	if (!dest)
+		return (NULL);
 	ft_memcpy(dest, str, len);
 	return (dest);
 }
