@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/21 16:52:13 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/04 21:12:13 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/04 23:07:51 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ char	*ft_strnstr(const char *big, const char *lil, unsigned int len)
 	unsigned int	n;
 
 	i = 0;
+	if (lil[0] == '\0')
+		return ((char *)big);
 	while (big[i] && i <= len)
 	{
 		n = 0;
