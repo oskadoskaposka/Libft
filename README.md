@@ -116,3 +116,6 @@ Why use other people functions when you can create your own?
 <img align="right" src="https://komarev.com/ghpvc/?username=oskadoskaposka&color=lightgrey&style=flat&label=visitors" alt="Visitors badge" />
 
 <!-- Badge do Projeto => https://github.com/JaeSeoKim/badge42 -->
+
+links para guardar
+<!-- https://www.ti-enxame.com/pt/c/qual-e-diferenca-entre-char-const-e-const-char/957524743/ -->

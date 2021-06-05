@@ -1,27 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strrchr.c                                       :+:      :+:    :+:   */
+/*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/24 21:01:15 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/04 21:11:02 by apaduan-         ###   ########.fr       */
+/*   Created: 2021/06/04 14:24:32 by apaduan-          #+#    #+#             */
+/*   Updated: 2021/06/04 21:05:19 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strrchr(const char *s, int c)
+char	*ft_strtrim(char const *s1, char const *set)
 {
-	char	*end_s;
+	unsigned int	principle;
+	unsigned int	culmination;
 
-	end_s = ft_strchr(s, '\0');
-	while (*end_s != c)
-	{
-		if (end_s == s)
-			return (NULL);
-		end_s--;
-	}
-	return ((char *)end_s);
+	principle = 0;
+	while (s1[principle] && ft_strchr(set, s1[principle]))
+		principle++;
+	culmination = ft_strlen (&s1[principle]);
+	while (s1[culmination] && ft_strchr(set, s1[culmination]))
+		culmination--;
+	return (ft_substr(s1, principle, culmination));
 }

@@ -1,12 +1,12 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    makefile                                           :+:      :+:    :+:    #
+#    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/02/17 01:47:09 by apaduan-          #+#    #+#              #
-#    Updated: 2021/05/30 14:46:39 by apaduan-         ###   ########.fr        #
+#    Updated: 2021/06/04 21:04:17 by apaduan-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -47,7 +47,8 @@ C_SOURCE=ft_isalnum.c \
 		 ft_putnbr_fd.c \
 		 ft_putstr_fd.c \
 		 ft_substr.c \
-		 ft_strjoin.c
+		 ft_strjoin.c \
+		 ft_strtrim.c
  
 # .h files
 H_SOURCE=libft.h

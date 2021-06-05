@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/16 13:58:23 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/02 18:16:00 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/04 21:10:15 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,9 +31,9 @@ int			ft_strncmp(const char *s1, const char *s2, unsigned int n);
 int			ft_tolower(int c);
 int			ft_toupper(int c);
 
-char		*ft_strchr(char *s, int c);
-char		*ft_strrchr(char *s, int c);
-char		*ft_strnstr(char *big, char *lil, unsigned int len);
+char		*ft_strchr(const char *s, int c);
+char		*ft_strrchr(const char *s, int c);
+char		*ft_strnstr(const char *big, const char *lil, unsigned int len);
 
 void		*ft_memcpy (void *dest, const char *src, unsigned int len);
 void		*ft_memccpy(void *dest, const void *src, int c, unsigned int len);
@@ -57,6 +57,8 @@ void		ft_putnbr_fd(int n, int fd);
 
 char		*ft_substr(char const *s, unsigned int start, size_t len);
 char		*ft_strjoin(char const *s1, char const *s2);
+
+char		*ft_strtrim(char const *s1, char const *set);
 
 // my personal functions
 int			ft_isspace (char c);
