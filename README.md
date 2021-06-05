@@ -117,5 +117,9 @@ Why use other people functions when you can create your own?
 
 <!-- Badge do Projeto => https://github.com/JaeSeoKim/badge42 -->
 
+<!-- 
 links para guardar
-<!-- https://www.ti-enxame.com/pt/c/qual-e-diferenca-entre-char-const-e-const-char/957524743/ -->
+
+https://www.ti-enxame.com/pt/c/qual-e-diferenca-entre-char-const-e-const-char/957524743/ 
+https://stackoverflow.com/questions/1789594/how-do-i-write-the-cd-command-in-a-makefile
+-->
