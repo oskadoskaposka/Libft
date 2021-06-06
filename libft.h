@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/16 13:58:23 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/04 21:29:04 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/06 19:16:39 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,6 @@ void		*ft_memset(void *dest,	int c, unsigned int len);
 
 void		ft_bzero(void	*str, unsigned int len);
 int			ft_atoi (const char *p);
-
 
 void		*ft_calloc(unsigned int number, unsigned int bytes);
 char		*ft_strdup(const char *str);
