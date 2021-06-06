@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/04 14:24:32 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/06 19:19:51 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/06 19:21:29 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,5 +24,5 @@ char	*ft_strtrim(char const *s1, char const *set)
 	culmination = ft_strlen (&s1[principle]);
 	while ((unsigned char)s1[culmination] && ft_strchr(set, (unsigned char)s1[culmination]))
 		culmination--;
-	return (ft_substr((unsigned char)s1, principle, culmination));
+	return (ft_substr(s1, principle, culmination));
 }
