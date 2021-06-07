@@ -41,8 +41,8 @@ Why use other people functions when you can create your own?
 | memchr | ✔️ | ✔️ | ✔️ |
 | memcmp | ✔️ | ✔️ | ✔️ |
 | strlen | ✔️ | ✔️ | ✔️ |
-| strlcpy | ✔️ | ✔️ | ❌ |
-| strlcat | ✔️ | ✔️ | ❌ |
+| strlcpy | ✔️ | ✔️ | ✔️ |
+| strlcat | ✔️ | ✔️ | ✔️ |
 | strchr | ✔️ | ✔️| ✔️ |
 | strrchr | ✔️ | ✔️ | ✔️ |
 | strnstr | ✔️ | ✔️ | ✔️ |
@@ -75,7 +75,7 @@ Why use other people functions when you can create your own?
 | --- | --- | --- | --- |
 | ft_substr | ✔️ | ✔️ | ✔️ |
 | ft_strjoin | ✔️ | ✔️ | ✔️ |
-| ft_strtrim | ❌ | ❌ | ❌ |
+| ft_strtrim | ✔️ | ✔️ | ❌ |
 | ft_split | ❌ | ❌ | ❌ |
 | ft_itoa | ❌ | ❌ | ❌ |
 | ft_strmapi | ❌ | ❌ | ❌ |
