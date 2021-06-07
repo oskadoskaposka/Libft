@@ -6,9 +6,14 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/24 14:40:29 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/05/26 00:34:05 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/07 01:12:27 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+	Converts the initial portion of the ASCII string point to by 'str' 
+	to int representation."
+*/
 
 #include "libft.h"
 

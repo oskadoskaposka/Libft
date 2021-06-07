@@ -6,9 +6,14 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/10 01:49:36 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/02/18 15:24:38 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/07 01:13:17 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+	Checks if 'c' is a ASCII letter (upercase or lowercase) or digit
+	and return 1 if true and 0 if is false.
+*/
 
 #include "libft.h"
 
