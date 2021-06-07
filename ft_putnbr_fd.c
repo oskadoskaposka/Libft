@@ -6,9 +6,13 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/26 22:05:13 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/05/26 22:38:06 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/07 20:28:59 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+	Write in file descriptor 'fd' the int 'n'.
+*/
 
 #include "libft.h"
 

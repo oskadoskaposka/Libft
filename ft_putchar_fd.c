@@ -6,9 +6,13 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/26 20:20:30 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/05/26 20:43:35 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/07 17:39:56 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+	write char 'c' in the file descriptor 'fd'
+*/
 
 #include "libft.h"
 

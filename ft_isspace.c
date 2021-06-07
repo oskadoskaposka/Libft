@@ -6,9 +6,14 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/24 15:08:23 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/05/26 01:44:59 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/07 01:33:06 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+	Check if 'c' is a space-type char in ASCII table, 
+	returns 1 if is true and 0 if is false.
+*/
 
 #include "libft.h"
 

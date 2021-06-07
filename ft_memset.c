@@ -6,16 +6,20 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/03 19:12:29 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/05/26 00:43:42 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/07 17:39:01 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+	Copy 'c in 'len' bytes of string 'dest' and returns the string 'dest'.
+*/
 
 void	*ft_memset(void *dest,	int c, unsigned int len)
 {
 	unsigned char	*cdest;
 	unsigned int	i;
 
-	cdest = dest;
+	cdest = (unsigned char *)dest;
 	i = 0;
 	while (i < len)
 	{

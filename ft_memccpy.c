@@ -6,9 +6,17 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/02 00:18:36 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/02 12:23:41 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/07 15:20:19 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+	Copy the bytes from string 'src' to string 'dest'. 
+	Interrupt when 'c' is copied or 'len' bytes are copied.
+
+	If 'c' is copied returns a pointer to dest, if 'len' bytes
+	are copied return 'NULL'.
+*/
 
 #include "libft.h"
 

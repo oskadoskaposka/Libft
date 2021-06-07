@@ -6,9 +6,14 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/30 13:51:38 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/03 00:09:04 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/07 20:55:45 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+	Concatenate the strings 's1' and 's2' in a new string with 
+	allocated memory and returns a pointer to this new string.
+*/
 
 #include "libft.h"
 

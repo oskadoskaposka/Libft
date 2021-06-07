@@ -6,9 +6,14 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/18 18:28:28 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/04 22:56:44 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/07 20:45:33 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+	search the int 'c' in the string 's', if find it, returns a pointer 
+	to 'c' in the string 's', if doesn't, return NULL.
+*/
 
 #include "libft.h"
 

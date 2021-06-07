@@ -6,9 +6,13 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/02 21:47:32 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/02 17:41:41 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/07 16:17:26 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+	Copy 'len' bytes from 'src' to 'dest', safe from overlaping.
+*/
 
 #include "libft.h"
 

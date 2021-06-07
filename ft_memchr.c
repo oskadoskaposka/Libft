@@ -6,22 +6,28 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/02 01:22:04 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/05/26 00:36:23 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/07 15:30:05 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+	Scan the 'len' bytes of str 'b' searching for 'c'.
+	If finds it, returns a pointer to 'c' position,
+	if doesn't, returns NULL.
+*/
 
 #include "libft.h"
 
 const void	*ft_memchr (const void *b, int c, unsigned int len)
 {
 	unsigned int	i;
-	const char		*cb;
+	unsigned char	*cb;
 
 	i = 0;
-	cb = b;
+	cb = (unsigned char *)b;
 	while (i < len)
 	{
-		if (cb[i] == (const char)c)
+		if (cb[i] == (unsigned char)c)
 			return (&cb[i]);
 		i++;
 	}

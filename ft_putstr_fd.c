@@ -6,9 +6,13 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/26 20:31:54 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/05/26 21:06:03 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/07 20:36:46 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+	write the string 'str' in file descriptor 'fd'.
+*/
 
 #include "libft.h"
 

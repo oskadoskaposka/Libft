@@ -6,9 +6,14 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/26 01:09:50 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/02 23:18:49 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/07 20:52:36 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+	Creates a duplicate of 'str' with allocated memory and return
+	a pointer to this new string.
+*/
 
 #include "libft.h"
 
