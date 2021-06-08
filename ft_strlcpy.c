@@ -6,9 +6,14 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/10 01:50:30 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/03 00:26:23 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/07 21:07:59 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+	Copies 'size' number of bytes from string 'src' to string 'dest',
+	and returns the length of 'src'.
+*/
 
 #include "libft.h"
 

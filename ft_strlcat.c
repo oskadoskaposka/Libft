@@ -6,9 +6,16 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/10 01:50:27 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/04 21:27:52 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/07 21:06:13 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+	Concatenate 'size' bytes of the string 'src' to string 'dest',
+	if 'dest' length is bigger than 'size', returns 'size' plus
+	'src' length. Else returns the size of 'src' plus the size of
+	'dest' plus 1.
+*/
 
 #include "libft.h"
 

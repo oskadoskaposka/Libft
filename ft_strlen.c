@@ -6,9 +6,13 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/10 01:50:33 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/04 14:25:41 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/07 21:08:57 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+	Counts how chars are in string 'str', '\0' not included.
+*/
 
 int	ft_strlen(const char *str)
 {
