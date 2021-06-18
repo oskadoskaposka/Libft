@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/24 14:40:29 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/07 01:12:27 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/18 01:19:18 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 
 int	ft_atoi (const char *str)
 {
-	int	i;
+	long int	i;
 	int	sign;
 
 	i = 0;
