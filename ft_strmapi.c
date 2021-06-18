@@ -1,0 +1,32 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strmapi.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/06/18 00:18:59 by apaduan-          #+#    #+#             */
+/*   Updated: 2021/06/18 01:06:14 by apaduan-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+/*
+** Returns an allocated string with each char modified by f.
+*/
+
+#include "libft.h"
+
+char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
+{
+	unsigned int	len_s;
+	char			*dest;
+
+	len_s = ft_strlen(s);
+	dest = malloc(len_s + 1);
+	if (!dest)
+		return (NULL);
+	dest[len_s] = '\0';
+	while (len_s > 0 && len_s--)
+		dest[len_s] = f(len_s, s[len_s]);
+	return (dest);
+}

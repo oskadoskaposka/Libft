@@ -77,7 +77,7 @@ Why use other people functions when you can create your own?
 | ft_strjoin | ✔️ | ✔️ | ✔️ |
 | ft_strtrim | ✔️ | ✔️ | ✔️ |
 | ft_split | ❌ | ❌ | ❌ |
-| ft_itoa | ❌ | ❌ | ❌ |
+| ft_itoa | ✔️ | ✔️ | ✔️ |
 | ft_strmapi | ❌ | ❌ | ❌ |
 | ft_putchar_fd | ✔️ | ✔️ | ✔️ |
 | ft_putstr_fd | ✔️ | ✔️ | ✔️ |
