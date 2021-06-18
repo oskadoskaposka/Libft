@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/12 21:40:58 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/18 00:11:20 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/18 00:15:14 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,35 +18,28 @@
 
 char	*ft_itoa(int n)
 {
-	unsigned int neg;
-	long long int nbr;
-	int digits;
-	char *dest;
+	unsigned int	neg;
+	long long int	nbr;
+	int				digits;
+	char			*dest;
 
 	neg = n < 0;
 	nbr = n;
 	if (neg)
 		nbr = nbr * -1;
 	digits = 1;
-	while (n / 10 != 0)
-	{
+	while (n / 10 != 0 && digits++)
 		n = n / 10;
-		digits++;
-	}
 	dest = malloc(neg + digits + 1);
 	if (!dest)
-	{
-		return(NULL);
-	}
+		return (NULL);
 	dest[neg + digits] = '\0';
-	digits--;
 	if (neg)
 		dest[0] = '-';
-	while (digits > -1)
+	while (digits > -1 && digits--)
 	{
-		dest[neg+digits] = nbr % 10 + '0';
+		dest[neg + digits] = nbr % 10 + '0';
 		nbr = nbr / 10;
-		digits--;
 	}
 	return (dest);
 }
