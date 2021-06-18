@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/12 21:40:58 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/17 23:38:07 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/17 23:43:49 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,10 @@ char	*ft_itoa(int n)
 	}
 	// printf("o valor de digits é: %d \n", digits);
 	dest = malloc(neg + digits + 1);
+	if (!dest)
+	{
+		return(NULL);
+	}
 	// apagar = (neg + digits + 1);
 	// printf("a quantidade malocada foi de : %u \n", apagar);
 	dest[neg + digits] = '\0';
