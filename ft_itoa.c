@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/12 21:40:58 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/17 23:44:40 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/18 00:08:34 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,10 +28,10 @@ char	*ft_itoa(int n)
 	neg = n < 0;
 	// printf("o valor de neg é: %u \n", neg);
 	nbr = n;
-	// printf("o valor de nbr é: %ld \n", nbr);
+	// printf("o valor de nbr é: %lld \n", nbr);
 	if (neg)
-		nbr = -n;
-		
+		nbr = nbr * -1;
+	// printf("o valor att de nbr é: %lld \n", nbr);
 	digits = 1;
 	while (n / 10 != 0)
 	{
@@ -52,8 +52,8 @@ char	*ft_itoa(int n)
 		dest[0] = '-';
 	while (digits > -1)
 	{
-		dest[neg+digits] = nbr % 10 + 48;
-		// printf("digit: %d --- valor: %li \n", digits, (nbr % 10 + 48));
+		dest[neg+digits] = nbr % 10 + '0';
+		// printf("digit: %d --- valor: %lli \n", digits, (nbr % 10 + 48));
 		nbr = nbr / 10;
 		digits--;
 	}
@@ -64,7 +64,7 @@ char	*ft_itoa(int n)
 // int main (void)
 // {
 // 	int positivo = 16031993;
-// 	int negativo = -11021999;
+// 	int negativo = INT_MIN;
 
 // 	printf("\npositivo \n----------------------------------------------------------------------------- \n");
 // 	ft_itoa(positivo);
