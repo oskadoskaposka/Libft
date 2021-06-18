@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/16 13:58:23 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/06 19:16:39 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/17 22:14:15 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,6 +58,7 @@ char		*ft_substr(char const *s, unsigned int start, size_t len);
 char		*ft_strjoin(char const *s1, char const *s2);
 
 char		*ft_strtrim(char const *s1, char const *set);
+char	*ft_itoa(int n);
 
 // my personal functions
 int			ft_isspace (char c);
