@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/26 20:31:54 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/07 20:36:46 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/18 01:17:12 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@
 
 void	ft_putstr_fd(char *str, int fd)
 {
+	if (!str)
+		return (NULL);
 	while (*str != '\0')
 	{
 		ft_putchar_fd(*str, fd);
