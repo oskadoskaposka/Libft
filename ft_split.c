@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/25 11:51:11 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/25 13:23:26 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/25 13:26:04 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,6 +58,8 @@ char	**ft_split(char const *s, char c)
 	int		word;
 	char	**array;
 
+	if (!s)
+		return (NULL);
 	word = words_len(s, c);
 	array = malloc ((word + 1) * sizeof(char *));
 	counter = 0;
