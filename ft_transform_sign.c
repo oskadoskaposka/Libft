@@ -6,9 +6,13 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/24 14:40:29 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/05/25 19:34:24 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/25 19:02:23 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+	Returns '-1' if char 'c' is negative sign or '1' if anything else.
+*/
 
 #include "libft.h"
 

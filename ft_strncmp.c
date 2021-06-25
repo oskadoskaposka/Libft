@@ -6,9 +6,14 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/10 01:50:37 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/03 00:06:41 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/25 16:49:08 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+	Compare the 'n' bytes of strings 's1' and 's2' 
+	and returns the diference.
+*/
 
 #include "libft.h"
 

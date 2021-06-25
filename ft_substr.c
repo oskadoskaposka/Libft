@@ -6,9 +6,14 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/27 13:20:23 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/25 13:32:19 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/25 18:47:25 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+	Create a new allocated string from a piece of string 's' 
+	and return this new string.
+*/
 
 #include "libft.h"
 

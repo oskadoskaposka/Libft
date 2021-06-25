@@ -6,9 +6,14 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/21 16:52:13 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/04 23:07:51 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/25 18:04:40 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+	Find the first occurrence string 'lil' in string 'big'
+	and returns a pointer in string 'big'
+*/
 
 #include "libft.h"
 

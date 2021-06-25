@@ -6,9 +6,14 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/24 21:01:15 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/04 22:58:21 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/25 18:42:10 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+	Find the last occurrence of char 'c' in the string 's' 
+	and returns a pointer.
+*/
 
 #include "libft.h"
 
