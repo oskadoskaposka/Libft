@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/18 00:18:59 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/18 01:16:42 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/25 19:25:50 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	if (!s)
 		return (NULL);
 	len_s = ft_strlen(s);
-	dest = malloc(len_s + 1);
+	dest = malloc((len_s + 1) * sizeof(char));
 	if (!dest)
 		return (NULL);
 	dest[len_s] = '\0';
