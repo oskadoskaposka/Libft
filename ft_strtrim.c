@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/04 14:24:32 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/06 19:27:46 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/25 12:03:05 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*ft_strtrim(char const *s1, char const *set)
 {
-	unsigned i;
+	unsigned int	i;
 
 	if (!s1 || !set)
 		return (0);

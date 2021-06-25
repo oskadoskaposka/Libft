@@ -13,11 +13,11 @@ Why use other people functions when you can create your own?
 - [Libc functions](#part1)
 - [Malloc use](#part2)
 - [Additional functions](#part3)
-- [Bonus](#part4)
-- [Personal functions](#part5)
+- [Personal functions](#part4)
 
 <!-- Feito ✔️ -->
 <!-- Não Feito ❌ -->
+<!-- [Mensagem a ser exibida](arquivo/caminho link) -->
 
 <a id='part0'></a>
 ## Part 0 - Makefile
@@ -86,24 +86,8 @@ Why use other people functions when you can create your own?
 
 [Back to top](#indice)
 
-<a id='part4'></a>
-## Part 4 - Bonus
-| Function | create | code | correct |
-| --- | --- | --- | --- |
-| ft_lstnew | ❌ | ❌ |  ❌ |
-| ft_lstadd_front | ❌ | ❌ | ❌ |
-| ft_lstsize | ❌ | ❌ | ❌ |
-| ft_lstlast | ❌ | ❌ | ❌ |
-| ft_lstadd_back | ❌ | ❌ | ❌ |
-| ft_lstdelone | ❌ | ❌ | ❌ |
-| ft_lstclear | ❌ | ❌ | ❌ |
-| ft_lstiter | ❌ | ❌ | ❌ |
-| ft_lstmap	 | ❌ | ❌ | ❌ |
-
-[Back to top](#indice)
-
-<a id='part5'></a>
-## Part 5 - Personal functions
+<a id='part 4'></a>
+## Part 4 - Personal functions
 | Function | create | code | correct |
 | --- | --- | --- | --- |
 | ft_isspace | ✔️ | ✔️ | ✔️ |
