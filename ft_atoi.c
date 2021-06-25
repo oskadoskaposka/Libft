@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/24 14:40:29 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/25 19:35:22 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/25 19:53:20 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,6 @@ static int	ft_transform_sign (int c)
 		return (-1);
 	return (1);
 }
-
 
 int	ft_atoi (const char *str)
 {
