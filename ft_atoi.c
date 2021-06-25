@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/24 14:40:29 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/25 12:02:27 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/25 19:35:22 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,23 @@
 */
 
 #include "libft.h"
+
+static int	ft_isspace (char c)
+{
+	if (c == 32 || c == 12 || c == 10 || c == 13 || c == 9 || c == 11)
+	{
+		return (1);
+	}
+	return (0);
+}
+
+static int	ft_transform_sign (int c)
+{
+	if (c == '-')
+		return (-1);
+	return (1);
+}
+
 
 int	ft_atoi (const char *str)
 {

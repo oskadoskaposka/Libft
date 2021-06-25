@@ -6,7 +6,7 @@
 #    By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/02/17 01:47:09 by apaduan-          #+#    #+#              #
-#    Updated: 2021/06/25 12:23:49 by apaduan-         ###   ########.fr        #
+#    Updated: 2021/06/25 19:40:30 by apaduan-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -37,8 +37,6 @@ C_SOURCE=ft_isalnum.c \
 		 ft_memmove.c \
 		 ft_memset.c \
 		 ft_bzero.c \
-		 ft_isspace.c \
-		 ft_transform_sign.c \
 		 ft_atoi.c \
 		 ft_calloc.c \
 		 ft_strdup.c \
