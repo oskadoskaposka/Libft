@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/27 13:20:23 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/25 13:30:16 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/06/25 13:32:19 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	size_t	size;
 
 	i = 0;
-	dest = malloc ((len + 1) * sizeof(char *));
+	dest = malloc ((len + 1) * sizeof(char));
 	if (!dest || !s)
 		return (NULL);
 	size = ft_strlen(s);
