@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/18 18:28:28 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/07 20:45:33 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/07/25 22:12:42 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@
 
 char	*ft_strchr(const char *s, int c)
 {
+	if (!*s || !c)
+		return (NULL);
 	while (*s != (unsigned char)c)
 	{
 		if (*s == '\0')
