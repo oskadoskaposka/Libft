@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/02 01:22:04 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/07 15:30:05 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/08/11 20:41:31 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 
 #include "libft.h"
 
-const void	*ft_memchr (const void *b, int c, unsigned int len)
+const void	*ft_memchr(const void *b, int c, unsigned int len)
 {
 	unsigned int	i;
 	unsigned char	*cb;

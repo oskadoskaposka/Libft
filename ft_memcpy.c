@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/02 00:05:02 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/07 16:13:09 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/08/11 20:42:06 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 
 #include "libft.h"
 
-void	*ft_memcpy (void *dest, const char *src, unsigned int len)
+void	*ft_memcpy(void *dest, const char *src, unsigned int len)
 {
 	char	*cdest;
 	char	*csrc;

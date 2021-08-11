@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/24 15:08:23 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/07 01:33:06 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/08/11 20:37:55 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 
 #include "libft.h"
 
-int	ft_isspace (char c)
+int	ft_isspace(char c)
 {
 	if (c == 32 || c == 12 || c == 10 || c == 13 || c == 9 || c == 11)
 	{

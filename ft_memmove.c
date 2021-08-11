@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/02 21:47:32 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/07 16:17:26 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/08/11 20:42:13 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 
 #include "libft.h"
 
-void	*ft_memmove (void *dest, const void *src, unsigned int len)
+void	*ft_memmove(void *dest, const void *src, unsigned int len)
 {
 	char	*cdest;
 	char	*csrc;

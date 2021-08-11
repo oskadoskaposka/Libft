@@ -6,13 +6,11 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/16 13:58:23 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/25 12:23:38 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/08/11 20:39:52 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
 //test with gitpod.io
-
 
 #ifndef LIBFT_H
 # define LIBFT_H
@@ -40,16 +38,16 @@ char		*ft_strchr(const char *s, int c);
 char		*ft_strrchr(const char *s, int c);
 char		*ft_strnstr(const char *big, const char *lil, unsigned int len);
 
-void		*ft_memcpy (void *dest, const char *src, unsigned int len);
+void		*ft_memcpy(void *dest, const char *src, unsigned int len);
 void		*ft_memccpy(void *dest, const void *src, int c, unsigned int len);
-const void	*ft_memchr (const void *b, int c, unsigned int len);
+const void	*ft_memchr(const void *b, int c, unsigned int len);
 int			ft_memcmp(const void *s1, const void *s2, unsigned int len);
 
-void		*ft_memmove (void *dest, const void *src, unsigned int len);
+void		*ft_memmove(void *dest, const void *src, unsigned int len);
 void		*ft_memset(void *dest,	int c, unsigned int len);
 
 void		ft_bzero(void	*str, unsigned int len);
-int			ft_atoi (const char *p);
+int			ft_atoi(const char *p);
 
 void		*ft_calloc(unsigned int number, unsigned int bytes);
 char		*ft_strdup(const char *str);
@@ -65,10 +63,10 @@ char		*ft_strjoin(char const *s1, char const *s2);
 char		*ft_strtrim(char const *s1, char const *set);
 char		*ft_itoa(int n);
 char		*ft_strmapi(char const *s, char (*f)(unsigned int, char));
-char	**ft_split(char const *s, char c);
+char		**ft_split(char const *s, char c);
 
 // my personal functions
-int			ft_isspace (char c);
-int			ft_transform_sign (int c);
+int			ft_isspace(char c);
+int			ft_transform_sign(int c);
 
 #endif
