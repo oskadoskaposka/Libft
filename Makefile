@@ -6,7 +6,7 @@
 #    By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/02/17 01:47:09 by apaduan-          #+#    #+#              #
-#    Updated: 2021/06/25 12:23:49 by apaduan-         ###   ########.fr        #
+#    Updated: 2021/08/17 20:32:44 by apaduan-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -83,7 +83,9 @@ clean:
 	@rm -f $(OUT)
 	@echo "Removing $(OUT)"
 
-fclean: clean
+fclean:
+	@rm -f $(OUT)
+	@echo "Removing $(OUT)"
 	@rm -f $(NAME)
 	@echo "Removing $(NAME)"
 
@@ -95,3 +97,5 @@ git:
 	@git add .
 	@git commit -m "$m"
 	@git push
+
+.PHONY: git fclean clean re all
