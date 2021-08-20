@@ -92,6 +92,7 @@ Why use other people functions when you can create your own?
 | --- | --- | --- | --- |
 | ft_isspace | ✔️ | ✔️ | ✔️ |
 | ft_transform_sign | ✔️ | ✔️ | ✔️ |
+| ft_uitoa | ✔️ | ✔️ | ? |
 
 [Back to top](#indice)
 

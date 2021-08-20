@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/16 13:58:23 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/08/11 20:39:52 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/08/19 23:25:30 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,5 +68,6 @@ char		**ft_split(char const *s, char c);
 // my personal functions
 int			ft_isspace(char c);
 int			ft_transform_sign(int c);
+char		*ft_uitoa(unsigned int n);
 
 #endif
