@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 20:19:25 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/08/21 01:13:47 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/08/21 01:29:23 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ char	*ft_itoh(unsigned int n, int letter)
 			dest[digits] = (nbr % 16) + '0';
 		else
 			dest[digits] = (nbr % 16) - 10 + letter;
-		nbr = nbr / 10;
+		nbr = nbr / 16;
 	}
 	return (dest);
 }
