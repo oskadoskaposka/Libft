@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/12 21:40:58 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/06/25 19:23:56 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/08/21 02:10:41 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ char	*ft_itoa(int n)
 	dest[neg + digits] = '\0';
 	if (neg)
 		dest[0] = '-';
-	while (digits > -1 && digits--)
+	while (digits > 0 && digits--)
 	{
 		dest[neg + digits] = nbr % 10 + '0';
 		nbr = nbr / 10;
