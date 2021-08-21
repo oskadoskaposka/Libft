@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 20:19:25 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/08/21 02:13:28 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/08/21 10:21:40 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 
 char	*ft_itoh(unsigned long long n, int letter)
 {
-	unsigned long long 	nbr;
+	unsigned long long	nbr;
 	int					digits;
 	char				*dest;
 
