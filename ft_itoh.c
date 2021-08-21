@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 20:19:25 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/08/21 01:00:43 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/08/21 01:13:47 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 
 #include "libft.h"
 
-char	*ft_uitoh(unsigned int n, int letter)
+char	*ft_itoh(unsigned int n, int letter)
 {
 	long long int	nbr;
 	int				digits;
