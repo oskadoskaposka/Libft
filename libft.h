@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/16 13:58:23 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/08/21 01:55:34 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/09/16 12:35:38 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,10 +15,13 @@
 #ifndef LIBFT_H
 # define LIBFT_H
 
+# define BUFFER_SIZE 42
+
 # include <stdio.h>
 # include <unistd.h>
 # include <stdlib.h>
 # include <limits.h>
+# include <fcntl.h>
 
 int			ft_isalnum(int c);
 int			ft_isalpha(int c);
@@ -64,6 +67,8 @@ char		*ft_strtrim(char const *s1, char const *set);
 char		*ft_itoa(int n);
 char		*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 char		**ft_split(char const *s, char c);
+
+char		*get_next_line(int fd);
 
 // my personal functions
 int			ft_isspace(char c);

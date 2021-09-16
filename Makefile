@@ -6,7 +6,7 @@
 #    By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/02/17 01:47:09 by apaduan-          #+#    #+#              #
-#    Updated: 2021/08/21 01:12:30 by apaduan-         ###   ########.fr        #
+#    Updated: 2021/09/16 12:36:45 by apaduan-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -53,7 +53,8 @@ C_SOURCE=ft_isalnum.c \
 		 ft_strmapi.c \
 		 ft_split.c \
 		 ft_uitoa.c \
-		 ft_itoh.c
+		 ft_itoh.c \
+		 get_next_line.c
  
 # .h files
 H_SOURCE=libft.h
