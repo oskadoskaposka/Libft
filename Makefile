@@ -6,7 +6,7 @@
 #    By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/02/17 01:47:09 by apaduan-          #+#    #+#              #
-#    Updated: 2021/10/27 23:23:34 by apaduan-         ###   ########.fr        #
+#    Updated: 2021/10/27 23:55:53 by apaduan-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -54,8 +54,15 @@ C_SOURCE=src/original/ft_isalnum.c \
 		 src/original/ft_split.c \
 		 src/personal/ft_uitoa.c \
 		 src/personal/ft_itoh.c \
-		 src/gnl/get_next_line.c
- 
+		 src/gnl/get_next_line.c \
+		 src/printf/ft_print_c.c \
+     	 src/printf/ft_print_di.c \
+		 src/printf/ft_print_p.c \
+		 src/printf/ft_print_s.c \
+		 src/printf/ft_print_u.c \
+		 src/printf/ft_print_x.c \
+		 src/printf/ft_printf.c
+
 # .h files
 H_SOURCE=libft.h
  
@@ -74,7 +81,7 @@ CC_FLAGS=-Wall         \
 
 all: $(NAME)
 
-$(NAME):$(OUT)
+$(NAME): $(OUT)
 	@ar rcs  $(NAME) $(OUT)
 	@echo "$(GR)Creating $(NAME) project!$(RC)"
 
@@ -88,7 +95,7 @@ clean:
 fclean:
 	@rm -f $(OUT)
 	@rm -f $(NAME)
-	@echo "$(RE)Removing Libft and $(NAME) .o and .a files!$(RC)"
+	@echo "$(RE)Removing $(NAME) .o and .a files!$(RC)"
 
 re: fclean all
 

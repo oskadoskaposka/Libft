@@ -6,11 +6,11 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/18 23:19:06 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/08/21 10:21:59 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/10/27 23:56:45 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../../libft.h"
 
 //print c and returns the number of printed chars
 

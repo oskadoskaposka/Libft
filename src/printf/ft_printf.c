@@ -6,11 +6,11 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/09 18:27:26 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/08/21 02:00:02 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/10/27 23:56:57 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../../libft.h"
 
 // checa o char da str se é '%' e se o proximo é "cspdiuxX%", falta "pxX" 
 int	functions_flags(va_list args, int flag)
