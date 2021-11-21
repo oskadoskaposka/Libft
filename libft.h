@@ -6,7 +6,7 @@
 /*   By: apaduan- <apaduan-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/16 13:58:23 by apaduan-          #+#    #+#             */
-/*   Updated: 2021/10/27 23:48:40 by apaduan-         ###   ########.fr       */
+/*   Updated: 2021/11/21 19:24:04 by apaduan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,6 +67,8 @@ int			ft_isspace(char c);
 int			ft_transform_sign(int c);
 char		*ft_uitoa(unsigned int n);
 char		*ft_itoh(unsigned long long n, int letter);
+int			ft_find(const char *str, char c);
+int			ft_nnl_strlen(const char *str);
 
 // printf functions
 int			ft_printf(const char *string, ...);

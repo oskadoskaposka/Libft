@@ -92,8 +92,11 @@ Why use other people functions when you can create your own?
 | --- | --- | --- | --- |
 | ft_isspace | ✔️ | ✔️ | ✔️ |
 | ft_transform_sign | ✔️ | ✔️ | ✔️ |
-| ft_uitoa | ✔️ | ✔️ | ? |
-| ft_itoh | ✔️ | ✔️ | ? |
+| ft_uitoa | ✔️ | ✔️ | ✔️ |
+| ft_itoh | ✔️ | ✔️ | ✔️ |
+| ft_find | ✔️ | ✔️ | ✔️ |
+| ft_nnl_strlen | ✔️ | ✔️ | ✔️ |
+
 
 [Back to top](#indice)
 
